@@ -1,6 +1,10 @@
 package view;
 
+import java.awt.Graphics;
 import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.MediaTracker;
+import java.awt.Toolkit;
 
 import javax.swing.*;
 
@@ -9,6 +13,8 @@ public class MyPanel extends JPanel {
 	{
 		super();
 		this.setSize(w,h);
-		this.setLayout(new GridLayout(2,1));
+		this.setLayout(null);
 	}
+
+
 }
